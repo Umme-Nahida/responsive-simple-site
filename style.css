@@ -68,7 +68,7 @@ nav{
 
 /* banner style added here */
 .banner-container{
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     background-color: #E6E9EB;
     padding: 20px;
@@ -114,3 +114,147 @@ nav{
     margin-right: 5px;
 }
 
+/* products sections style */
+.product-title{
+    padding-top: 50px;
+    font-size: 34px;
+    text-align: center;
+}
+.product-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0px auto;
+    padding: 50px;
+    min-height: 400px;
+    
+}
+.single-product{
+    /* width: 30%; */
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 2px solid burlywood;
+    background-color: #DBDFE3;
+    box-shadow: 2px 2px 4px rgb(63, 57, 57);
+    min-height: 400px;
+}
+
+.single-product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.product-icon-name-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.product-icon{
+    font-size: 15px;
+    margin:20px 0px ;
+
+}
+.product-icon-name-container span{
+    padding: 10px;
+    background-color: #9376E0;
+    color: white;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.product-grid-container p{
+    margin-bottom: 10px;
+}
+ .price{
+    font-size: 18px;
+}
+
+/* discount section */
+.discount-container{
+    background-color: #9376E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.discount-img-container{
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+.discount-img-container img{
+    width: 80%;
+}
+.discount-text-container{
+    width: 50%;
+    padding-right: 60px;
+}
+.discount-text-container h1{
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+.discount-text-container p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.discount-price{
+    width: 80px;
+    height: 80px;
+    background-color: #F6FFA6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 3%;
+    left: 60%;
+}
+
+.btn-buy{
+    border: 2px solid black;
+    border-color: #F6FFA6;
+    background-color: transparent;
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+}
+
+/* review sections added */
+.review-container{
+    padding: 50px 0;
+    text-align: center;
+}
+.review-grid{
+    min-height: 200px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.review-card{
+   background-color: #E893CF;
+   flex-basis: 300px;
+   border-radius: 5px;
+   padding: 10px 5px;
+   text-align: start;
+    
+}
+.review-img{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.review-img img{
+    width: 60px;
+    height: 60px;
+}
